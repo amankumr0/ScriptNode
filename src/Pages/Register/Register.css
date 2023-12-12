@@ -1,0 +1,29 @@
+.register-container {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 30px;
+    place-items: center;
+    background: rgba(0, 0, 0, 0.24);
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    box-shadow: 0px 6px 12px 0px rgba(255, 255, 255, 0.116);
+}
+
+.register-body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.reg-form-btn {
+    padding: 10px;
+    font-size: larger;
+    background: #0000006c;
+    border: 2px solid greenyellow;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 25px;
+}

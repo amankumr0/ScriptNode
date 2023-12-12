@@ -1,0 +1,31 @@
+.input-container {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.input-field {
+    outline: none;
+    border: 1px solid greenyellow;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.transparent {
+    background: transparent;
+}
+
+.border {
+    border: 2px solid greenyellow;
+}
+
+.m-top-10px {
+    margin-top: 10px;
+}

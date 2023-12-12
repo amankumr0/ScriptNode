@@ -1,0 +1,24 @@
+.post-container {
+    padding: 10px;
+}
+
+.post-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-height: 60vmin;
+    overflow: hidden;
+}
+
+.post-content-container {
+    padding: 20px;
+}
+
+.post-title-container {
+    margin-bottom: 20px;
+}
+
+.post-image {
+    width: 70vmin;
+}

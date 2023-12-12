@@ -1,0 +1,12 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.main-container-2 {
+    width: 100%;
+    max-width: 900px;
+    /* background: rebeccapurple; */
+}

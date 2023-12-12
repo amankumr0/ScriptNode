@@ -1,0 +1,29 @@
+.user-post-card-btn {}
+
+.user-post-card-btn-update {}
+
+.user-cmn-btn {
+    font-size: 15px;
+    padding: 10px 15px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.user-cmn-btn:hover {
+    background: rgb(34, 0, 25);
+}
+
+.user-post-card {
+    margin-bottom: 20px;
+}
+
+.user-post-card-btn-edit {
+    background-color: rgb(115, 192, 0);
+}
+
+.user-post-card-btn-delete {
+    background: rgb(255, 115, 0);
+}

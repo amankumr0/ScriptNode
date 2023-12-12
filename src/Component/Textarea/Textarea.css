@@ -1,0 +1,39 @@
+.m-top-10px {
+    margin-top: 10px;
+}
+
+.textarea-container {
+    color: black;
+    resize: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.addBlog-textarea {
+    resize: none;
+    outline: none;
+    border: 1px solid greenyellow;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.transparent {
+    background: transparent;
+}
+
+.border {
+    border: 2px solid greenyellow;
+}
+
+.m-top-10px {
+    margin-top: 10px;
+}

@@ -1,0 +1,38 @@
+.link-container {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    /* align-items: start; */
+    justify-content: start;
+}
+
+.artical-container {
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.title-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content: space-between; */
+}
+
+.title-item {
+    display: flex;
+
+}
+
+.artical-h1 {
+    color: rgb(255, 155, 212);
+}
+
+.artical-profile {
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+    margin-left: 14px;
+}

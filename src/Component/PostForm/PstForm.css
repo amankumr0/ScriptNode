@@ -1,0 +1,14 @@
+.addBlog-container {
+    background-color: #02070c;
+    padding: 20px;
+    border: 2px solid rgb(200, 255, 118);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.addBlog-select {
+    padding: 3px;
+    font-size: 17px;
+    background: rgb(23, 39, 0);
+    /* color: rgb(255, 168, 229); */
+}
