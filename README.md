@@ -1,4 +1,4 @@
-# React + Vite
+
 <h1>ScriptNode</h1>
   <h5>A sophisticated and intuitive blogging application that harmoniously blends the power of React.js, Redux,
  react-use-form, and the robust Appwrite backend service. This fusion of cutting-edge technologies results in a
@@ -12,7 +12,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 </ul>
 
 
-
+# React + Vite
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
