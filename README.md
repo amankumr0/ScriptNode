@@ -6,7 +6,8 @@
 
 <ul>
   <li>React.js and Redux Integration </li>
-  <li>React-Use-Form for Enhanced Form Management Appwrite Backend Service </li>
+  <li>React-Use-Form for Enhanced Form Management</li>
+  <li>Appwrite Backend Service </li>
   <li>React-Router-Dom for Intuitive Routing</li>
   <li>Responsive Design</li>
   <li>User Authentication and Authorization</li>
