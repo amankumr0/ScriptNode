@@ -42,8 +42,8 @@ function PostForm({ post }) {
                         userName: userData.name,
                     })
                     if (dbPost) {
-                        console.log("Post ho gaya")
-                        // nevigate(`/post/${dbPost.$id}`)
+                    
+                     nevigate(`/post/${dbPost.$id}`)
                     }
                 }
             }
