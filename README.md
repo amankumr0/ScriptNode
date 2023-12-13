@@ -13,7 +13,7 @@
   <li>User Authentication and Authorization</li>
 </ul>
 
-<a href="https://scriptnode.netlify.app/"><h2>Preview</h2></a>
+<a href="https://scriptnode.netlify.app/"> Preview</a>
 # React + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 Currently, two official plugins are available:
