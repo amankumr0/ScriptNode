@@ -30,7 +30,7 @@ function MyBlog() {
                         <PostCard {...post} />
                         <div className="user-post-card-btn">
                             <button className='user-post-card-btn-edit user-cmn-btn' onClick={() => { nevigate(`/update/${post.$id}`) }}>Edit</button>
-                            <button className='user-post-card-btn-delete user-cmn-btn' onClick={() => { service.deletePsot(post.$id) }}>Delete</button>
+                            <button className='user-post-card-btn-delete user-cmn-btn' onClick={() => { service.deletePsot(post.$id); nevigate("/myblog") }}>Delete</button>
                         </div>
                     </div>
                 ))
