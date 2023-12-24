@@ -21,11 +21,5 @@ export default function App2() {
             setLoading(false)
         }
     }, [])
-    return (
-        <>
-            {
-                loading ? (<h1>Loading...</h1>) : <App />
-            }
-        </>
-    )
+    
 }

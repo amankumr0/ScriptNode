@@ -10,7 +10,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: url("./assets/Sprinkle.svg");
+  /* background: url("./assets/Sprinkle.svg"); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

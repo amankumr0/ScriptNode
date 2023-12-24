@@ -15,12 +15,6 @@ const Textarea =
         return (
             <div className="textarea-container">
                 {label && <label style={{ color: "#fff" }} className="m-top-10px" htmlFor={id}>{label}</label>}
-                {/* <textarea 
-                name={name} 
-                id={id} 
-                className={`addBlog-textarea ${className}`} 
-                {...props} 
-                ref={ref} /> */}
                 <Controller
                     name={name || "content"}
                     control={control}

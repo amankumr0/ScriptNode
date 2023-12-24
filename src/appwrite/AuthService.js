@@ -28,7 +28,7 @@ class AuthService {
         try {
             return await this.account.createEmailSession(email, password)
         } catch (error) {
-            console.log("ERROR:: appwrite:: login", error)
+            console.log("ERROR:: Appwrite:: login", error)
             throw new Error(error);
         }
     }

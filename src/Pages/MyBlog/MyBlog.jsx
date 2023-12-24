@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { Container, PostCard, service } from '../../Component'
 import { Query } from 'appwrite'
 import { useSelector } from 'react-redux'
@@ -22,6 +22,7 @@ function MyBlog() {
     useEffect(() => {
         cll();
     }, [userData])
+
     return (
         <Container>
             <div>{
@@ -30,7 +31,18 @@ function MyBlog() {
                         <PostCard {...post} />
                         <div className="user-post-card-btn">
                             <button className='user-post-card-btn-edit user-cmn-btn' onClick={() => { nevigate(`/update/${post.$id}`) }}>Edit</button>
-                            <button className='user-post-card-btn-delete user-cmn-btn' onClick={() => { service.deletePsot(post.$id) }}>Delete</button>
+                            <button className='user-post-card-btn-delete user-cmn-btn'
+                                onClick={
+                                    () => {
+                                        const res = service.deletePsot(post.$id);
+                                        if (res) {
+                                            setPost(prev => prev.filter(data => data.$id != post.$id)
+                                            )
+                                        }
+                                    }
+                                }>
+                                Delete
+                            </button>
                         </div>
                     </div>
                 ))
