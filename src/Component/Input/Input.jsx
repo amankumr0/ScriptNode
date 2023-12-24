@@ -13,7 +13,7 @@ const Input = React.forwardRef(
         return (
             <div className="input-container">
                 {label && <label className="m-top-10px" htmlFor={id}>{label}</label>}
-                < input name={name} type={type} id={id} className={`input-field ${className}`} {...props} ref={ref} />
+                <input name={name} type={type} id={id} className={`input-field ${className}`} {...props} ref={ref} />
             </div>
         )
     }

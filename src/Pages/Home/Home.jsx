@@ -11,7 +11,6 @@ function Home() {
     useEffect(() => {
         try {
             service.getPosts().then(data => {
-                console.log(data);
                 setData([...data.documents])
             })
         } catch (error) {

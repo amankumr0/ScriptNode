@@ -5,7 +5,6 @@ import { Button, Container, Input, Textarea, service } from "../index"
 import "./PstForm.css"
 
 function PostForm({ post }) {
-    console.log(post)
     const { register, handleSubmit, control, getValues } =
         useForm({
             defaultValues: {
@@ -18,7 +17,6 @@ function PostForm({ post }) {
     const nevigate = useNavigate();
 
     const handler = async (data) => {
-        console.log(data)
         try {
             if (post) {
                 const file = data?.image[0] ? await service.uploadFile(data.image[0]) : null;
