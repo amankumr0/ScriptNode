@@ -21,5 +21,5 @@ export default function App2() {
             setLoading(false)
         }
     }, [])
-    
+
 }
